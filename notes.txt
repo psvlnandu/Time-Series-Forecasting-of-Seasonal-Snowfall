@@ -1,0 +1,9 @@
+arrange()
+    7 dates from s to e
+np.date_range(start_date, periods=7, freq='D')
+Seasonality in time series is a regular pattern of change that happens at specific intervals, such as weekly, monthly, or quarterly. It's caused by a variety of factors, including weather, holidays, and vacations. 
+forward fill & back fill
+datetime64. what is [D]; [ns]
+daily level; yearly level in time series data
+
+.rename takes dictionary { 'old_name':'new_name',axis=1} axis =1 because we are renaming col old_name
